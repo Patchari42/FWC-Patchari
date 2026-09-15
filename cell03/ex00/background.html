@@ -3,21 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>random colors</title>
-    <link rel="background.css" href="">
-
+    <title>Exercise 00 - Change Background</title>
+    <!-- เชื่อมต่อไฟล์ CSS -->
+    <link rel="stylesheet" href="background.css">
 </head>
 <body>
-    <button onclick="changeBgcolor();">click me!</button>
-    <script>
-        function changeBgcolor() {
-            const r = Math.floor(Math.random()*256)
-            const g = Math.floor(Math.random()*256)
-            const b = Math.floor(Math.random()*256)
 
-            const randomColor = `rgb(${r}, ${g}, ${b})`;
-            document.body.style.backgroundColor = randomColor;
-        }
-    </script>
+    <!-- ปุ่มสำหรับกดเพื่อเปลี่ยนสีพื้นหลัง -->
+    <button id="change-btn">Change Background Color</button>
+
+    <!-- เชื่อมต่อไฟล์ JavaScript -->
+    <script src="background.js"></script>
 </body>
 </html>
