@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td {
+    border: 2px solid #000000;
+    text-align: center;
+    vertical-align: middle;
+    word-break: break-all;
+    font-size: 20px;
+}
+
+.first-cell {
+    background-color: #f0f0f0;
+}
+
+.second-cell {
+    background-color: #e0e0e0;
+}
